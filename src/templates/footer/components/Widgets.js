@@ -9,7 +9,7 @@ class Widgets extends Component
     render() {
         return (
             <div>
-                
+                Footer Widgets here
             </div>
         );
     }

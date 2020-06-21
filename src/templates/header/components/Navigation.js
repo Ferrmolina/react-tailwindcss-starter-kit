@@ -11,7 +11,7 @@ class Navigation extends Component
         return (
             <div className="flex flex-row justify-between">
                 <div className="logo">
-                    <a className="flex flex-row  align-center">
+                    <a className="flex flex-row align-center">
                         <img src="logo192.png" /> Company
                     </a>
                 </div>
@@ -29,7 +29,6 @@ class Navigation extends Component
                     </ul>
                     <button type="button" 
                         className="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
-                       
                     </button>
                 </nav>
             </div>

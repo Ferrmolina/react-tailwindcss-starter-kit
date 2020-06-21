@@ -12,8 +12,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "build:css": "postcss src/assets/sass/tailwind.css -o src/assets/css/tailwind.css",
-    "watch:css": "postcss src/assets/sass/tailwind.css -o src/assets/css/tailwind.css -w",
+    "build:css": "postcss src/assets/sass/tailwind.scss -o src/assets/css/tailwind.css",
+    "watch:css": "postcss src/assets/sass/tailwind.scss -o src/assets/css/tailwind.css -w",
     "start": "npm run watch:css & react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test --env=jsdom",

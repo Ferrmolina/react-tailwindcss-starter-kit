@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom';
 
-
 import Section from './components/Section';
 import Aside from './components/Aside';
 
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Dashboard from '../pages/Dashboard';
+import Home from '../../pages/Home';
+import About from '../../pages/About';
+import Dashboard from '../../pages/Dashboard';
 
 
 class Main extends Component 
