@@ -1,12 +1,7 @@
 import React, { Component } from 'react'
-import { Switch, Route } from 'react-router-dom';
 
 import Section from './components/Section';
 import Aside from './components/Aside';
-
-import Home from '../../pages/Home';
-import About from '../../pages/About';
-import Dashboard from '../../pages/Dashboard';
 
 
 class Main extends Component 
@@ -18,18 +13,13 @@ class Main extends Component
     render() {
         return (
             <main>
-                <div className="container flex flex-row bg-gray-200 mx-auto">
-                    <Switch>
-                        <Route exact path="/">
-                            <Home />
-                        </Route>
-                        <Route path="/about">
-                            <About />
-                        </Route>
-                        <Route path="/dashboard">
-                            <Dashboard />
-                        </Route>
-                    </Switch>
+                <div className="container flex flex-row mx-auto ">
+                    <section className="w-3/4 text-2xl pr-8">
+                        <Section />
+                    </section>
+                    <aside className="h-64 flex-1 bg-gray-200 p-4">
+                        <Aside />
+                    </aside>
                 </div>
             </main>
         );

@@ -9,8 +9,8 @@ class Header extends Component
     
     render() {
         return (
-            <header>
-                <div className="container mx-auto">
+            <header className="border border-solid border-1 border-gray-200 mb-2">
+                <div className="container mx-auto p-2">
                     <Navigation />
                 </div>
             </header>

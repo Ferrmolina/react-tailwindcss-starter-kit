@@ -9,8 +9,8 @@ class Footer extends Component
 
     render() {
         return (
-            <footer>
-                <div className="container mx-auto">
+            <footer className="mt-2">
+                <div className="container mx-auto p-2">
                     <Widgets />
                 </div>
             </footer>

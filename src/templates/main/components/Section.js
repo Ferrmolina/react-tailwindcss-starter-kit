@@ -1,4 +1,9 @@
 import React, { Component } from 'react'
+import { Switch, Route } from 'react-router-dom';
+
+import Home from '../../../pages/Home';
+import About from '../../../pages/About';
+import Dashboard from '../../../pages/Dashboard';
 
 class Section extends Component 
 {
@@ -7,7 +12,19 @@ class Section extends Component
     }
 
     render() {
-        return (<section className="w-3/4">Section Here</section>);
+        return (
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="/about">
+                    <About />
+                </Route>
+                <Route path="/dashboard">
+                    <Dashboard />
+                </Route>
+            </Switch>
+        );
     }
 }
 

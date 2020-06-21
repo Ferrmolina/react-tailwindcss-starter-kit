@@ -8,8 +8,8 @@ class Widgets extends Component
 
     render() {
         return (
-            <div>
-                Footer Widgets here
+            <div className="text-xs text-center">
+                React Tailwindcss - Starter-kit &copy; <a href="https://www.fmolina.me" target="_blank"><strong>fmolina.me</strong></a>
             </div>
         );
     }
