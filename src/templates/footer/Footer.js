@@ -3,10 +3,6 @@ import Widgets from './components/Widgets';
 
 class Footer extends Component 
 {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <footer className="mt-2">

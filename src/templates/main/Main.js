@@ -6,10 +6,6 @@ import Aside from './components/Aside';
 
 class Main extends Component 
 {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <main>
@@ -17,7 +13,7 @@ class Main extends Component
                     <section className="w-3/4 text-2xl pr-8">
                         <Section />
                     </section>
-                    <aside className="h-64 flex-1 bg-gray-200 p-4">
+                    <aside className="h-auto max-h-full flex-1">
                         <Aside />
                     </aside>
                 </div>

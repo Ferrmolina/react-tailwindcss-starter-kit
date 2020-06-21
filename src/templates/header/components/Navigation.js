@@ -30,7 +30,9 @@ class Navigation extends Component
         return (
             <div className="flex flex-row justify-between items-center">
                 <div className="flex flex-row">
-                    <Link to="/" className="text-gray-700 mr-10">
+                    <Link 
+                        to="/" 
+                        className="text-gray-700 mr-10 outline-none">
                        {tailwindLogo}
                     </Link>
                 </div>
